@@ -1,8 +1,8 @@
 {
  "manifest_version": 2,
- "name": "nLula",
+ "name": "nKayo",
  "version": "1.4",
- "description": "Troque todas as imagens do site por fotos do Lula.",
+ "description": "Troque todas as imagens do site por fotos do Kayutcho.",
  "icons": {
   "48": "lula-icon.jpeg",
   "128": "lula-icon.jpeg"
@@ -10,7 +10,7 @@
  "content_scripts": [
   {
    "matches": ["*://*/*"],
-   "js": ["jquery.js", "nLula.js"]
+   "js": ["jquery.js", "nKayo.js"]
   }
  ]
 }
